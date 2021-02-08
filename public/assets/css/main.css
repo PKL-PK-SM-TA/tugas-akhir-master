@@ -1,0 +1,142 @@
+.text-NIM {
+    font-size: 12px;
+}
+
+.table-white {
+    background: #FFF;
+}
+
+.lecturer-final-project-title {
+    display: none;
+}
+
+.login-card-body {
+    border-radius: 15px;
+}
+
+label.check-login {
+    font-weight: 100 !important;
+    font-size: 15px;
+}
+
+.img-circle {
+    width: 50px !important;
+    height: 50px !important;
+    object-fit: cover;
+}
+
+.bg-gradient-warning,
+.btn-warning,
+.alert-warning,
+.badge-warning {
+    color: #FFF !important;
+}
+
+/* Button Gradient */
+.dt-buttons {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.buttons-html5 {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    box-shadow: none;
+}
+
+.gallery-image {
+    position: relative;
+    display: inline-block;
+}
+
+.gallery-image button {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.btn.fs-12 {
+    font-size: 12px !important;
+}
+
+.pdfobject-container {
+    height: 100%;
+}
+
+.pdfobject {
+    border: 1px solid #666;
+}
+
+.table td,
+.table th {
+    vertical-align: middle !important;
+}
+
+.info-box {
+    margin-bottom: 0px !important;
+}
+
+.login-box {
+    width: 400px !important;
+}
+
+.main-sidebar {
+    background: linear-gradient(#203852, #204d7e, #254870) !important
+}
+
+.brand-link {
+    border-bottom: 0px !important
+}
+
+.nav-link {
+    color: #FFF !important
+}
+
+.user-panel {
+    background: linear-gradient(#0088ff, #227fd2) !important;
+    padding-top: 10px;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .12), 0 1px 2px rgba(0, 0, 0, .24) !important;
+}
+
+.navbar-primary,
+.btn-primary,
+.nav-link.active {
+    background: linear-gradient(#0088ff, #227fd2) !important;
+    font-weight: 500 !important;
+}
+
+.btn-finish-final-project {
+    background: #000 !important
+}
+
+.btn-final-project {
+    background: #0619a7 
+}
+
+.btn-proposal {
+    background: #046596
+}
+
+.btn-pra-proposal {
+    background: #039479;
+}
+
+.btn-register {
+    background: #dd2a4e;
+}
