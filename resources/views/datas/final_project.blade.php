@@ -5,7 +5,7 @@
 @section('title', 'Data Tugas Akhir')
 
 @section('css')
-    <link rel="stylesheet" href="{{ asset('assets/plugins/datatables-bs4/css/dataTables.bootstrap4.css') }}">
+<link rel="stylesheet" href="{{ asset('assets/plugins/datatables-bs4/css/dataTables.bootstrap4.css') }}">
 @endsection
 
 <!-- Content -->
@@ -13,8 +13,7 @@
 <section class="content">
     <div class="container-fluid">
         <div class="d-flex justify-content-end">
-            <button type="button" id="final-project-add" class="btn btn-primary mb-2" data-toggle="modal"
-                data-target="#final-project-modal">Tambah Data TA</button>
+            <button type="button" id="final-project-add" class="btn btn-primary mb-2" data-toggle="modal" data-target="#final-project-modal">Tambah Data TA</button>
         </div>
         <div class="card">
             <div class="card-body">
@@ -25,6 +24,7 @@
                                 <th width="30%">Judul</th>
                                 <th>Mahasiswa</th>
                                 <th>Tanggal</th>
+                                <th>Semester</th>
                                 <th width="10%">Berkas</th>
                                 <th width="10%">Berita Acara</th>
                                 <th width="5%"></th>
