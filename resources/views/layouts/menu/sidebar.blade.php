@@ -43,7 +43,7 @@
                       <a href="{{ route('pre_proposal.index') }}" class="nav-link {{ Request::is('student/pre_proposal') ? 'active' : '' }}">
                           <i class="nav-icon fas fa-sticky-note"></i>
                           <p>
-                              Pra-Proposal
+                              Rekomendasi
                           </p>
                       </a>
                   </li>
@@ -51,7 +51,15 @@
                       <a href="{{ route('final_project.index') }}" class="nav-link {{ Request::is('student/final_project') ? 'active' : '' }}">
                           <i class="nav-icon fas fa-copy"></i>
                           <p>
-                              Proposal/Tugas Akhir
+                              Progress
+                          </p>
+                      </a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="{{ route('coordinator.recomendation-title.index') }}" class="nav-link {{ Request::is('recomendation-title') ? 'active' : '' }}">
+                          <i class="nav-icon fas fa-user-graduate"></i>
+                          <p>
+                              Rekomendasi Topik/Judul
                           </p>
                       </a>
                   </li>
@@ -66,14 +74,6 @@
                       </a>
                   </li>
                   @endif
-                  <li class="nav-item">
-                      <a href="{{ route('coordinator.recomendation-title.index') }}" class="nav-link {{ Request::is('recomendation-title') ? 'active' : '' }}">
-                          <i class="nav-icon fas fa-user-graduate"></i>
-                          <p>
-                              Rekomendasi Topik/Judul
-                          </p>
-                      </a>
-                  </li>
                   @if(Auth::user()->isCoordinator())
                   <!--<li class="nav-item">
                       <a href="{{ route('final_actives.index') }}" class="nav-link {{ Request::is('coordinator/final_projects') ? 'active' : '' }}">
